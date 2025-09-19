@@ -72,7 +72,7 @@ function getStatusText(status) {
         'blocked': 'Заблокирован',
         'restricted': 'Ограничен',
         'warning': 'Предупреждение',
-        'soft_blocked': 'Ослабл. блокировка'
+        'soft_blocked': 'Заблокирован'
     };
     return statusMap[status] || status;
 }
@@ -289,7 +289,7 @@ function initEventListeners() {
  * Инициализация приложения
  */
 function initApp() {
-    console.log('Crystalforge Web Services - Система управления ограничениями');
+    console.log('Crystalforge Web Services - Просмотр действующих наказаний');
     console.log(`Загружено пользователей: ${usersData.length}`);
     
     // Инициализация обработчиков
