@@ -201,6 +201,11 @@ h1 {
     color: white;
 }
 
+.status-soft_blocked {
+    background: linear-gradient(45deg, #9b59b6, #8e44ad);
+    color: white;
+}
+
 .restriction-info {
     background: #f8f9fa;
     border-radius: 12px;
@@ -224,6 +229,25 @@ h1 {
 .restriction-date {
     color: #999;
     font-size: 0.8em;
+}
+
+.expiry-info {
+    background: #e8f4fd;
+    border-left: 4px solid #3498db;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+.expiry-date {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.expiry-never {
+    color: #e74c3c;
+    font-weight: bold;
 }
 
 .stats {
